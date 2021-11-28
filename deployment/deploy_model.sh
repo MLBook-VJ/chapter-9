@@ -2,11 +2,9 @@
 set -e
 
 # Arguments
-project_name=$1
-experiment_name=$2
-uuid=$3
-experiment_bucket=$4
-prod_bucket=$5
+uuid=$1
+experiment_bucket=$2
+prod_bucket=$3
 
 # Set params
 dt=$(date '+%Y-%m-%d')
